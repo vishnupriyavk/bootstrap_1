@@ -1,0 +1,15 @@
+.container-lg{
+  position:absolute;
+   top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border:1px solid grey;
+  border-raius:10px;
+  width:1000px;
+  padding:125px;
+}
+img{
+   width: 350px;
+    float: right;
+   overflow: visible;
+}

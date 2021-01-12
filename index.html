@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <div class="container">
+
+   <head>
+     <title>Bootstrap google Example</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+     <link rel="stylesheet" href="bootstrap11.css">
+    <link rel="stylesheet" href="bootstrap11.js">
+
+   <body>
+     <div class="container-lg">
+       <h1>
+         <div class="panel">
+           <span class="text-primary">G</span>
+           <span class="text-danger">o</span>
+           <span class="text-warning">o</span>
+           <span class="text-primary">g</span>
+           <span class="text-success">l</span>
+           <span class="text-danger">e</span>
+         </div>
+       </h1>
+       <h2> Create Your Google Account</h2>
+
+      <form>
+        <div class="input-group mb-1  w-75">
+          <input type="text" class="form-control" placeholder="First Name">
+          <input type="text" class="form-control" placeholder="Last Name">
+         </div>
+         <br>
+         <br>
+
+         <div class="input-group mb-3  w-75">
+           <input type="text" class="form-control" placeholder="Username &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#xf2c0; @gmail.com" id="demo" name="email">
+         </div>
+
+         <h6 class="text-secondary"> you can use letters, numbers and periods.</h6>
+         <br>
+         <h5 class="text-primary"> Use my current email address instead</h5>
+         <br>
+         <div class="input-group w-75">
+              <input type="password" class="form-control" id="pwd" placeholder="Password" name="pswd">
+              <input type="password" class="form-control" id="pwdc" placeholder="Confirm Password" name="pswd">
+         </div>
+
+         <h6 class="text-secondary"> Use 8 or more characters with a mix of letters,numbers & symbols</h6>
+         <br>
+        <h6 class="text-secondary">Show Password <input type="checkbox" onclick="myFunction()"></h6>
+        <script type="text/javascript">
+          function myFunction() {
+            var x = document.getElementById("pwd");
+            var y = document.getElementById("pwdc");
+
+             if (x.type === "password" && y.type === "password") {
+              x.type = "text";
+              y.type = "text";
+            } else {
+              x.type = "password";
+              y.type = "password";
+            }
+          }
+
+        </script>
+         <br>
+         <br>
+         <br>
+
+         <h5 class="text-primary">Sign in instead</h5>
+         <div class="text-center">
+           <button type="button" class="btn btn-primary" style="margin-right:15px;">Next</button>
+        </div>
+      </form>
+    </div>
+    <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-hTDgrFcKxjuxaQCLSaxVw7PGu6zULK3Q2Q&usqp=CAU" />
+
+    </div>
+
+    </body>
+     </html>
